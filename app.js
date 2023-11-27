@@ -138,10 +138,18 @@ const positiveNegative = () =>{
         display.textContent = -display.textContent
         return negative = true
     }
-    if(negative = true)
+    if(negative)
     display.textContent = +display.textContent
         return negative = false
 }
 negativeButton.addEventListener('click', positiveNegative)
 
 // percent button is pressed //
+
+const percent =()=>{
+
+    let percentage = display.textContent / 100
+    return display.textContent = percentage
+}
+
+percentButton.addEventListener('click',percent)
