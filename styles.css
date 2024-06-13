@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 .container{
     width: 50vw;
     width: 60vh;
@@ -14,6 +13,7 @@
     margin-top: 5%;
     border: 8px solid #29335C;
     background-color: #29335C;
+    box-shadow: 10px 5px 5px black;
 }
 
 .display{
@@ -25,6 +25,7 @@
     font-size: 3.5rem;
     font-family: 'Orbitron', sans-serif;
     background-color: lightgray;
+    overflow:hidden
 }
 
 .row{
